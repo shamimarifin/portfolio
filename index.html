@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordpress Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" alt="" class="logo">
+
+            <ul id="sideMenu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class='bx bx-plus' onclick="closeMenu()"></i>
+            </ul>
+            <i class='bx bx-menu-alt-right' onclick="openMenu()"></i>
+            </nav>
+
+            <div class="header_text">
+                <p>UI/UX Designer</p>
+                <h1>I'm <span>Shamim</span> <br>From Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------About ------------- -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="img/user.png" alt="">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="sub_title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam, nesciunt quas, dolor, dolorum modi tempore vel tenetur aliquam at exercitationem a. Amet debitis nam provident, officia porro nulla aliquid ex a laborum beatae recusandae hic accusamus qui sequi molestias. Quae deserunt ex blanditiis voluptas voluptatibus minus, consequuntur et magnam.</p>
+                    <div class="tab_titles">
+                        <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab_links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab_links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab_contents active_tabs" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designing Web/App Interface</li>
+                            <li><span>Web Development</span> <br> Web / App Development</li>
+                            <li><span>App Development</span> <br> Building android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span> <br> Well Up Technology</li>
+                            <li><span>2018</span> <br> Definsoft</li>
+                            <li><span>2020</span> <br> Softtech-IT</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2012</span> <br> Primary School Certificate</li>
+                            <li><span>2018</span> <br> Secondary School Certificate</li>
+                            <li><span>2023</span> <br> Diploma Engineer in CSE</li>
+                        </ul>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- Service ------------- -->
+
+    <section id="services">
+        <div class="container">
+            <h1 class="sub_title">My Services</h1>
+            
+            <div class="services_list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus dolorum numquam eos quae molestias nisi excepturi quidem incidunt at tempore.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class='bx bxs-crop'></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus dolorum numquam eos quae molestias nisi excepturi quidem incidunt at tempore.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class='bx bx-happy-beaming'></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus dolorum numquam eos quae molestias nisi excepturi quidem incidunt at tempore.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--_------------ Portfolio ----------------->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub_title">My Work</h1>
+
+            <div class="work_lists">
+                <div class="work">
+                    <img src="img/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, fuga.</p>
+                        <a href="#"><i class='bx bx-link-alt'></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, fuga.</p>
+                        <a href="#"><i class='bx bx-link-alt'></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, fuga.</p>
+                        <a href="#"><i class='bx bx-link-alt'></i></a>
+                    </div>
+                </div>
+            </div>  
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+
+
+    <!-- =---------------- Contact -------------------------->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub_title">Contact Me</h1>
+                    <p><i class='bx bxs-paper-plane'></i>contact@example.com</p>
+                    <p><i class='bx bxs-phone'></i>01879041725</p>
+    
+                    <div class="social_links">
+                        <a href="#"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#"><i class='bx bxl-twitter' ></i></a>
+                        <a href="#"><i class='bx bxl-instagram' ></i></a>
+                        <a href="#"><i class='bx bxl-pinterest' ></i></a>
+                    </div>
+
+                    <a href="img/my-cv.pdf" download="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact_right">
+                    <form action="">
+                        <input type="text" name="yourname" id="yourname" placeholder="Your name" required>
+                        <input type="email" name="email" id="" placeholder="Your email" required>
+                        <textarea name="message" id="" rows="6" placeholder="Your message"></textarea>
+                        <button class="btn btn2" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Shamim. <i class='bx bxs-heart'></i> Made with by Me.</p>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
